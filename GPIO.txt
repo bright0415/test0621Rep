@@ -1,0 +1,10 @@
+sudo systemctl stop watchdogd
+cd /sys/class/gpio
+[3:46 PM] Salih Utku Karaaslan
+echo 359 > export
+[3:46 PM] Salih Utku Karaaslan
+echo out > /sys/class/gpio/gpio359/direction
+[3:47 PM] Salih Utku Karaaslan
+echo 1 > /sys/class/gpio/gpio359/value
+[3:47 PM] Salih Utku Karaaslan
+echo 0 > /sys/class/gpio/gpio359/value
