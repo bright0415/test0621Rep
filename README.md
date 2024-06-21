@@ -1,2 +1,2 @@
 # test0621Rep
-A test repository created on June 21
+A test repository which was created on June 21
